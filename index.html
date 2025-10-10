@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Question Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Random Question Generator</h1>
+    <button onClick="scrapeQuestions(0, 1)" title="Scrape part 1 questions">Scrape part 1 questions</button>
+    <button onClick="scrapeQuestions(1, 2)" title="Scrape part 2 & 3 questions">Scrape part 2 & 3 questions</button>
+    <br> <br>
+    <img src="asset/duck.gif">
+    <br>
+    <button onClick="newQuestion()" title="Click here to random a new question">Click for question</button>
+    <br>
+    <div id="questionDisplay"></div>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

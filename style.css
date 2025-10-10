@@ -1,0 +1,20 @@
+html, body {
+    background-color: #3498DB
+}
+
+h1 {
+    font-family: arial;
+    text-align: center;
+    color: #F9E79F
+}
+
+body {
+    text-align: center;
+    font-family: arial;
+    font-size: 1.5em;
+    color: white
+}
+
+img {
+	width: 400px;
+}
